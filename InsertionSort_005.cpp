@@ -1,9 +1,11 @@
 #include <iostream>
-using namespace std;
+using namespace std; // menambahkan library iostream
 
+// menambahkan variabel global array dan jumlah data
 int arr[20];
 int n;
 
+// membuat fungsi input data array
 void input()
 {
     while (true)
@@ -32,6 +34,7 @@ void input()
     }
 }
 
+// menambahkan algoritma insertion sort
 void insertionsort()
 {
     int temp;
@@ -55,6 +58,7 @@ void insertionsort()
     }
 }
 
+// membuat fungsi display untuk menampilkan array
 void display()
 {
     cout << endl;
@@ -69,6 +73,7 @@ void display()
     cout << endl;
 }
 
+// menghubungkan semua fungsi di main()
 int main()
 {
     input();
